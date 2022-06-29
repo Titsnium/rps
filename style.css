@@ -1,0 +1,96 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: blue;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.09s;
+}
+
+h1 {
+    font-size: 100px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Rainbow "RPS" Title */
+.rainbowText {
+    margin: auto;
+    transition: 0.09s;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-text-stroke: 5px white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: move 35s linear infinite;
+}
+
+/* Animates the rainbow dash thing */
+@keyframes move {
+    to {
+        background-position: 900vh;
+    }
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rock {
+    display: flexbox;
+    margin: 5px;
+    padding: 65px;
+    background: url("images/moai_1f5ff.png");
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+}
+
+.Paper {
+    display: flexbox;
+    margin: 5px;
+    padding: 65px;
+    background: url("images/roll-of-paper_1f9fb.png");
+    background-repeat: no-repeat;
+}
+
+.Scissors {
+    display: flexbox;
+    margin: 5px;
+    padding: 65px;
+    background: url("images/scissors_2702-fe0f.png");
+    background-repeat: no-repeat;
+}
+
+.button:hover {
+    transform: scale(1.2);
+  }
+
+.rainbowText:hover {
+    transform: scale(1.2);
+}
