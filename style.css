@@ -28,6 +28,7 @@ a {
 .rainbowText {
     margin: auto;
     transition: 0.09s;
+    background-clip: border-box;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     -webkit-text-stroke: 5px white;
     -webkit-background-clip: text;
