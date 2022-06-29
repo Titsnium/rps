@@ -67,7 +67,7 @@ a {
     display: flexbox;
     margin: 5px;
     padding: 65px;
-    background: url("images/moai_1f5ff.png");
+    background: url("/images/moai_1f5ff.png");
     background-repeat: no-repeat;
     margin-bottom: 300px;
 }
@@ -76,7 +76,7 @@ a {
     display: flexbox;
     margin: 5px;
     padding: 65px;
-    background: url("images/roll-of-paper_1f9fb.png");
+    background: url("/images/roll-of-paper_1f9fb.png");
     background-repeat: no-repeat;
 }
 
@@ -84,7 +84,7 @@ a {
     display: flexbox;
     margin: 5px;
     padding: 65px;
-    background: url("images/scissors_2702-fe0f.png");
+    background: url("/images/scissors_2702-fe0f.png");
     background-repeat: no-repeat;
 }
 
