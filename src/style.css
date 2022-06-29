@@ -35,7 +35,8 @@ a {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .result-container {
