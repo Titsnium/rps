@@ -1,0 +1,1 @@
+# My first practice project for javascript as well as html and css
