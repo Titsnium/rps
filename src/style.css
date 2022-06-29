@@ -4,19 +4,7 @@
 
 body {
     background-color: blue;
-}
-
-.button {
-    appearance: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.09s;
-}
-
-h1 {
-    font-size: 100px;
-    cursor: pointer;
+    color: white;
 }
 
 a {
@@ -26,21 +14,9 @@ a {
 
 /* Rainbow "RPS" Title */
 .rainbowText {
-    margin: auto;
+    font-size: 50px;
+    cursor: pointer;
     transition: 0.09s;
-    background-clip: border-box;
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    -webkit-text-stroke: 5px white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: move 35s linear infinite;
-}
-
-/* Animates the rainbow dash thing */
-@keyframes move {
-    to {
-        background-position: 900vh;
-    }
 }
 
 .header-container {
@@ -48,6 +24,10 @@ a {
     justify-content: center;
     align-items: center;
     margin: auto;
+    height: 200px;
+    width: 400px;
+    border: 3px solid white;
+    background-color: black;
 }
 
 .button-container {
@@ -57,10 +37,25 @@ a {
     height: 500px;
 }
 
+.scoreboard-container {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-left: 750px;
+    margin-top: 2px;
+}
+
 .footer-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .Rock {
@@ -69,7 +64,6 @@ a {
     padding: 65px;
     background: url("/images/moai_1f5ff.png");
     background-repeat: no-repeat;
-    margin-bottom: 300px;
 }
 
 .Paper {
@@ -88,10 +82,18 @@ a {
     background-repeat: no-repeat;
 }
 
+.scoreboard {
+    height: 200px;
+    width: 400px;
+    border: 3px solid white;
+    background-color: black;
+    font-size: 5px;
+}
+
 .button:hover {
-    transform: scale(1.2);
+    transform: scale(0.9);
   }
 
-.rainbowText:hover {
-    transform: scale(1.2);
+.header-container:hover {
+    transform: scale(0.9);
 }
