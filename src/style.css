@@ -34,15 +34,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: auto;
+    margin: 20px;
 }
 
-.scoreboard-container {
-    display: flexbox;
+.result-container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 750px;
-    margin-top: 2px;
 }
 
 .footer-container {
@@ -56,6 +55,7 @@ a {
     border: none;
     outline: none;
     cursor: pointer;
+    margin: 0px;
 }
 
 .Rock {
@@ -82,12 +82,52 @@ a {
     background-repeat: no-repeat;
 }
 
-.scoreboard {
-    height: 200px;
+.playerBoard {
+    display: flex;
+    height: auto;
     width: 400px;
+    justify-content: center;
+    align-items: center;
     border: 3px solid white;
     background-color: black;
-    font-size: 5px;
+    font-size: 10px;
+    margin-left: 749px;
+}
+
+.versus {
+    display: flex;
+    height: auto;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    background-color: black;
+    font-size: 10px;
+    margin-left: 749px;
+}
+
+.computerBoard {
+    display: flex;
+    height: auto;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    background-color: black;
+    font-size: 10px;
+    margin-left: 749px;
+}
+
+
+.result {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    background-color: black;
+    font-size: 20px;
 }
 
 .button:hover {
