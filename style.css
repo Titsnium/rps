@@ -85,38 +85,38 @@ a {
 
 .playerBoard {
     display: flex;
-    height: auto;
-    width: 400px;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 400px;
     border: 3px solid white;
     background-color: black;
     font-size: 10px;
-    margin-left: 749px;
 }
 
 .versus {
     display: flex;
-    height: auto;
-    width: 400px;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 400px;
     border: 3px solid white;
     background-color: black;
     font-size: 10px;
-    margin-left: 749px;
 }
 
 .computerBoard {
     display: flex;
-    height: auto;
-    width: 400px;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 400px;
     border: 3px solid white;
     background-color: black;
     font-size: 10px;
-    margin-left: 749px;
 }
 
 
